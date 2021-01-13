@@ -1,0 +1,78 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+section{
+    height: 650px;
+}
+.text-highlight{
+ color: rgba(250, 190, 76, 1);
+ font-size: 60px;
+}
+span{
+    font-size: 60px;
+}
+p{
+    color: rgba(62, 62, 62, 1);
+}
+h2{
+    color: goldenrod;
+}
+.buy-now-button{
+    background-color: rgba(164, 188, 70, 1);
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 10px 22px;
+    color: white;
+    border: 0;
+    font-size: 20px;
+}
+.buy-now-button i{
+    margin-right: 15px;
+}
+.contact-border{
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(247, 245, 245);
+    padding: 5px 20px;
+}
+.female-jacket img{
+    width: 300px;
+    background-color: rgba(241, 241, 241, 1);
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-top: 4px;
+}
+.male-jacket img{
+    width: 300px;
+    background-color: rgba(241, 241, 241, 1);
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-top: 4px;
+}
+@media (max-width:662px){
+    .front-part{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* subscribe area */
+input{
+    text-transform: lowercase;
+    padding: 10px 10px;
+    margin: 10px 10px ;
+}
+.subscribe-button{
+    background-color: rgb(182, 79, 131);
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: 100px;
+}
+.sub-highlight{
+    color: rgba(187, 86, 136, 0.582);
+    font-size: 100px;
+    text-align: center;
+}
+.social img{
+    width: 100px;
+    padding: 0 20px;
+}
